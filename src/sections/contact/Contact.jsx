@@ -38,7 +38,7 @@ export default function Contact() {
         <form
           target="_blank"
           onSubmit={onSubmit}
-          action="https://formsubmit.co/ba43bf26cc7c2faa5addf686f4b16f8c "
+          action="https://formsubmit.co/ba43bf26cc7c2faa5addf686f4b16f8c"
           method="POST"
           className="grid grid-cols-1 gap-9"
         >

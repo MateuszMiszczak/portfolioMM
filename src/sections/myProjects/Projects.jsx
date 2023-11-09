@@ -14,7 +14,7 @@ const exploreProjects = [
   {
     id: 0,
     imgUrl: '',
-    addressWebsite: 'https://main--benevolent-phoenix-c2ec95.netlify.app/',
+    addressWebsite: 'https://navenscopy.netlify.app/',
     addressGitHub: 'https://github.com/MateuszMiszczak/navenscopy',
     title: 'NavensCopy',
     description: `Fully responsive Website created for a marketing company. I've created custom Routing, animations and used Vite.`,

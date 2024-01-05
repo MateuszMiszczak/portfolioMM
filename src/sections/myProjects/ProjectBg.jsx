@@ -46,8 +46,8 @@ export default function ProjectBg() {
         </motion.svg>
       ) : (
         <motion.svg
-          width="500"
-          height="540"
+          width="700"
+          height="1050"
           viewBox="0 0 350 350"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"

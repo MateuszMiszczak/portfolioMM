@@ -17,7 +17,7 @@ const exploreProjects = [
     addressWebsite: 'https://main--bookmarkmateuszmiszczak.netlify.app/',
     addressGitHub: 'https://github.com/MateuszMiszczak/bookmark',
     title: 'Bookmark',
-    description: `Website has been built as a part of the recruitment process for Confilogi Team. Task description is available on Github.`,
+    description: `Website has been built in 6 days total as a part of the recruitment process of Confilogi Team. More info on github.`,
     techUsed: [sass, js, react],
     newest: true,
     inProgress: false,

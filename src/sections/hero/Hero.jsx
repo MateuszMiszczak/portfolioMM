@@ -12,7 +12,7 @@ import bgVideo from '../../assets/bg-universe.mp4';
 
 const heroData = [
   {
-    text: `Hello, I'm Matt, front-end web developer.`,
+    text: `Hi, I'm Matt, front-end web developer.`,
     id: 0,
   },
 

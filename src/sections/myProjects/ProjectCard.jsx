@@ -48,7 +48,7 @@ export default function ProjectCard({
         ease: 'backInOut',
       }}
       className={`h-[400px]
-      w-[250px] xs:h-[350px] xs:w-[350px] bg-mainColor grid place-content-start border-4 rounded-md shadow-md shadow-gray-400 border-gray-300 hover:border-white relative overflow-hidden text-white lg:hover:text-white lg:text-gray-200 group m-2 ${
+      w-[300px] xs:h-[350px] xs:w-[350px] bg-mainColor grid place-content-start border-4 rounded-md shadow-md shadow-gray-400 border-gray-300 hover:border-white relative overflow-hidden text-white lg:hover:text-white lg:text-gray-200 group m-2 ${
         inProgress ? 'pointer-events-none' : ''
       }`}
     >
@@ -105,7 +105,7 @@ export default function ProjectCard({
         <motion.a
           href={addressWebsite}
           target="_blank"
-          className="text-lg bg-css/70 px-2 py-1 border-2 rounded-md  transition delay-[10ms] hover:scale-[1.05] hover:bg-css outline-none focus:border-redOne focus:shadow-redOne focus:scale-[0.95] w-fit flex flex-col xs:flex-row gap-2 items-center"
+          className="text-lg bg-css/70 px-2 border-2 rounded-md  transition delay-[10ms] hover:scale-[1.05] hover:bg-css outline-none focus:border-redOne focus:shadow-redOne focus:scale-[0.95] w-fit flex flex-col xs:flex-row gap-1 xs:gap-2 items-center py-2 xs:py-1"
         >
           <p>Website</p>
           <span className="text-[15px]">
@@ -115,7 +115,7 @@ export default function ProjectCard({
         <motion.a
           href={addressGitHub}
           target="_blank"
-          className="text-lg px-2 py-1 border-2 rounded-md transition delay-[10ms] hover:scale-[1.05] focus:scale-[0.95] outline-none focus:border-redOne focus:shadow-redOne w-fit hover:bg-white/40 flex flex-col xs:flex-row items-center gap-2"
+          className="text-lg px-2 border-2 rounded-md transition delay-[10ms] hover:scale-[1.05] focus:scale-[0.95] outline-none focus:border-redOne focus:shadow-redOne w-fit hover:bg-white/40 flex flex-col xs:flex-row items-center gap-1 xs:gap-2 py-2 xs:py-1"
         >
           <p>Source code</p>
           <span>
